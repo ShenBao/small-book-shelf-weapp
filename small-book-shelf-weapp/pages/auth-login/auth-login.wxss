@@ -1,0 +1,59 @@
+.icon {
+    padding-top: 85rpx;
+}
+
+.icon image {
+    display: block;
+    margin: 0 auto;
+    width: 360rpx;
+    height: 360rpx;
+}
+
+.welcome {
+    padding-top: 48rpx;
+    padding-bottom: 24rpx;
+    font-size: 40rpx;
+    color: #080808;
+    text-align: center;
+}
+
+.auth-login, .explain {
+    font-size: 30rpx;
+    color: #666;
+    text-align: center;
+}
+
+.auth-btn {
+    width: 580rpx;
+    margin: 0 auto;
+    margin-top: 78rpx;
+    position: relative;
+}
+
+.auth-btn image {
+    width: 580rpx;
+    height: 120rpx;
+}
+
+.auth-btn button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 580rpx;
+    height: 120rpx;
+    border: 0;
+    line-height: 100rpx;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    bottom: 40rpx;
+    width: 100%;
+	text-align: center;
+	color: #666;
+	font-size: 26rpx;
+}
+

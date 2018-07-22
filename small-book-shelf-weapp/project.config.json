@@ -1,0 +1,68 @@
+{
+	"description": "项目配置文件。",
+	"setting": {
+		"urlCheck": false,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.0.8",
+	"appid": "wx5069365538e464b8",
+	"projectname": "small-book-shelf-weapp",
+	"isGameTourist": false,
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": -1,
+					"name": "my-books",
+					"pathName": "pages/my-books/my-books",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "books",
+					"pathName": "pages/books/books",
+					"query": ""
+				},
+				{
+					"id": 3,
+					"name": "detail",
+					"pathName": "pages/detail/detail",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "my",
+					"pathName": "pages/my/my",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "comment",
+					"pathName": "pages/comment/comment",
+					"query": ""
+				}
+			]
+		}
+	}
+}

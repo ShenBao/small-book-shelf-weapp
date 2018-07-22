@@ -1,0 +1,18 @@
+<!--pages/auth-login/auth-login.wxml-->
+
+<view class='icon'>
+    <image src='{{ loginWelcome }}'></image>
+</view>
+
+<view class='welcome'>欢迎到来</view>
+
+<view class='auth-login'>小程序需要你的授权登录</view>
+
+<view class='auth-btn'>
+    <image src='{{ loginBtnBg }}'></image>
+    <button plain='true' open-type="getUserInfo" bindgetuserinfo="getUserInfoHandler">授权</button>
+</view>
+
+<view class='footer'>
+    小书架
+</view>
